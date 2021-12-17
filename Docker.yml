@@ -4,7 +4,7 @@ services:
   web:
     build: .
     environment:
-      FLASK_APP: market.py
+      FLASK_APP: MBA.py
       FLASK_ENV: development
     volumes:
       - .:/app
